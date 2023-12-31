@@ -1,0 +1,33 @@
+/* input.css */
+div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Stack the label and input vertically on smaller screens */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+span {
+  display: block;
+  color: #dc3545; /* Red color for error message, you can adjust as needed */
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0; /* Initially hide the error message */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+div:hover span {
+  opacity: 1; /* Show the error message when the parent div is hovered */
+}

@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/1708601/pexels-photo-1708601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    center/cover no-repeat;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Dark overlay for better readability */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #fff; /* White text for better visibility */
+}
+
+h1 {
+  font-size: 2em; /* Increase font size for emphasis */
+}
+
+.logoutBtn {
+  margin-top: 20px; /* Add some space between title and button */
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logoutBtn:hover {
+  background-color: #0056b3;
+}
